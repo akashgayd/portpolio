@@ -1,0 +1,588 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.laptop-view{
+    display: none;
+}
+.main_cont{
+
+    height: 140%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-family: "Playwrite GB S", serif;
+}
+.img_sec{
+
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    background-image: url("aseets/compressed_6ae8cd32b408a341186f137d22aba5d4.webp");
+    background-size: cover;
+}
+.intro{
+
+    font-size: 21px;
+}
+.name_sec h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.name_sec h1 span{
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(148, 111, 0);
+}
+.dis{
+    text-align: justify;
+    font-size: 17px;
+}
+.font{
+    width: 100%;
+    display: flex;
+   gap: 40px;
+    color: blueviolet;
+    font-size: 17px;
+
+}
+.font i:hover{
+    height: 20px;
+    width: 30px;
+    background-color: coral;
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px white;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.name_sec button{
+    height: 40px;
+    width: 130px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+ font-family: "Oleo Script Swash Caps", serif;
+}
+.name_sec button:hover{
+    width: 150px;
+    font-size: 18px;
+    filter: drop-shadow(1px 1px 10px lightblue);
+    transition-duration: 0.7s;
+    color: chocolate;
+    background-color: antiquewhite;
+}
+
+.about_me{
+  height: 170%;
+    width: 100%;
+    /* border: 1px solid white; */  
+    
+
+}
+.img_sec2{
+
+    height: 50%;
+    width: 100%;
+    background-image: url("aseets/compressed_b1cef9c3f38c5508bd9762c39256af4f.webp");
+    background-size: cover;
+}
+.name_sec2{
+
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+    flex-wrap: wrap;
+    color: white;
+    font-family: "Josefin Sans", serif;
+    text-transform: capitalize;
+    
+}
+.name_sec2 h1{
+font-size: 40px;
+font-weight: 700;
+}
+.name_sec2 button{
+    height: 40px;
+    width: 140px;
+    background-color: darkgray;
+    border: none;
+    border-radius: 8px;
+}
+.my-servieses{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.my-servieses section{
+
+    height: 70%;
+    width: 100%;
+    border: 2px solid lime;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    font-family: "Fira Sans", serif;
+
+}
+.my-servieses section img{
+
+    height: 40px;
+    width: 40px;
+}
+.my-skill{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.skill-heading{
+
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.my-skill section{
+    height: 40%; width: 45%;
+}
+.project-heading{
+
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Fira Sans", serif;
+
+}
+
+.footer{
+
+    height: 70%;
+    width: 100%;
+    background-color: rgb(156, 162, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-top-left-radius: 29%;
+   
+}
+
+
+.footer h1{
+    font-size: 58px;
+    font-weight: 300;
+    color: white;
+}
+.footer p{
+
+    color: white;
+    opacity: 0.7;
+    text-transform: capitalize;
+}
+.input-footer{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    border-radius: 22%;
+  
+    padding: 10px;
+}
+.input-footer input{
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.input-footer button{
+    height: 100%;
+    width: 28%;
+    background-color: rgb(42, 165, 138);
+    border-radius: 20%;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.footer-icon{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    color: antiquewhite;
+}
+
+
+
+@media (min-width:1024px) {
+    .mobaile-view{
+display:none;
+    }
+
+    .laptop-view{
+        display: block;
+        height: 12%;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+        color: white;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    nav{
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+       
+
+    }
+    nav ul{
+        display: flex;
+        align-self: center;
+        list-style: none;
+        gap: 54px;
+       
+    }
+    nav ul li{
+
+       
+        text-transform: capitalize;
+        font-size: 18px;
+        height: 24px;
+        width: 120px;
+        text-align: center;
+    
+    }
+    nav img{
+        width: 100px;
+        height: 80px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+nav li:hover{
+
+    background-color: coral;
+    box-shadow: 0px 0px 4px white;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    color: white;
+   
+}
+.main_cont{
+    height: 88%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.name_sec{
+    height: 100%;
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playwrite GB S", serif;
+   
+}
+.img_sec{
+    height: 100%;
+    width: 44%;
+    padding: 20px;
+    background-image: url("aseets/developer-with-ai-generated-free-png.webp");
+    background-size: cover;
+   
+}
+.img_sec:hover{
+
+    background-image: url("aseets/compressed_b1cef9c3f38c5508bd9762c39256af4f.webp");
+    transition-duration: 0.4s;
+    width: 50%;
+}
+.intro{
+
+    font-size: 24px;
+    align-self: flex-start;
+}
+.name_sec h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Oleo Script", serif;
+}
+.name_sec h1 span{
+    font-weight: 900;
+    font-size: 55px;
+    color: rgb(207, 143, 7);
+}
+.dis{
+    text-align: justify;
+    font-size: 17px;
+}
+.font{
+    width: 100%;
+    display: flex;
+   gap: 40px;
+    color: blueviolet;
+    font-size: 17px;
+
+}
+.about_me{
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+
+}
+.img_sec2{
+
+    height: 100%;
+    width: 50%;
+    background-image: url("aseets/compressed_6ae8cd32b408a341186f137d22aba5d4.webp");
+    background-size: cover;
+}
+.name_sec2{
+
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "Fira Sans", serif;
+    gap: 10px;
+    
+}
+    
+
+.name_sec2 h1{
+    font-size: 54px;
+    font-weight: 900;
+    }
+
+    
+    .name_sec2 button{
+        height: 50px;
+        width: 140px;
+        background-color: rgb(174, 27, 167);
+        border: none;
+        border-radius: 8px;
+        color: white;
+    }
+    .name_sec2 button:hover{
+
+        height: 55px;
+        width: 160px;
+       filter: drop-shadow(1px 1px 20px red);
+       background-color: darkcyan;
+        transition-duration: 0.6s;
+    }
+
+    .my-servieses{
+          height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+       flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Playwrite GB S", serif;
+    gap: 20px;
+    }
+
+    .my-servieses div{
+      
+        height: 10%;
+        width: 100%;
+    text-align: center;
+
+    }
+
+    .my-servieses div span{
+        font-weight: 900;
+        color: rgb(139, 111, 0);
+    }
+    .my-servieses section{
+
+        height: 70%;
+        width: 24%;
+        border: 2px solid lime;
+        border-radius: 10px;
+
+    }
+    .my-servieses section p{
+        text-align: justify;
+    }
+    .sr1:hover{
+        scale: 1.07;
+        transition-duration: 0.8s;
+      box-shadow: 1px 1px 14px rgb(230, 8, 8);
+      border-top-left-radius: 100px;
+    }
+
+    .sr2:hover{
+        scale: 1.07;
+        transition-duration: 0.8s;
+      box-shadow: 1px 1px 14px rgb(255, 244, 244);
+      border-top-right-radius: 100px;
+    }
+
+
+    
+    .sr3:hover{
+        scale: 1.07;
+        transition-duration: 0.8s;
+      box-shadow: 1px 1px 14px rgb(243, 223, 2);
+      border-top-left-radius: 100px;
+
+      border-top-right-radius: 100px;
+    }
+
+    .my-skill{
+
+        height: 80%;
+        width: 80%;
+        padding: 20px;
+        align-items: center;
+        justify-content:
+        center; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        position: relative;
+        left: 10%;
+    }
+    .skill-heading{
+
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        
+      
+    }
+    .skill-heading h1{
+
+
+        font-size: 60px;
+        font-weight: 800;
+        color: rgb(194, 184, 184);
+        text-transform: capitalize;
+    }
+    .my-skill section{
+        height: 45%;
+        width: 25%;
+        /* border: 1px solid white; */
+        padding: 20px;
+
+    }
+    .my-project{
+        height: 80%;
+        width: 100%;
+        padding: 25px;
+        /* border: 1px solid white; */
+      
+      
+    }
+    .s3{
+
+        height: 80%;
+        width: 80%;
+        box-shadow: 0px 0px 10px white;
+
+    }
+
+    
+    .footer{
+
+        height: 50%;
+        width: 100%;
+        background-color: rgb(128, 128, 134);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-top-left-radius: 35%;
+        border-top-right-radius: 35%;
+       
+    }
+    .footer h1{
+        font-size: 58px;
+        font-weight: 300;
+        color: white;
+    }
+    .footer p{
+
+        color: white;
+        opacity: 0.7;
+        text-transform: capitalize;
+    }
+    .input-footer{
+        width: 26%;
+        height: 55px;
+        background-color: white;
+        border-radius: 22%;
+      
+        padding: 10px;
+    }
+    .input-footer input{
+        height: 100%;
+        width: 70%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    
+    }
+
+    .input-footer button{
+        height: 100%;
+        width: 28%;
+        background-color: rgb(42, 140, 165);
+        border-radius: 25%;
+        border: none;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+    .footer-icon{
+        width: 30%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        color: antiquewhite;
+    }
+}
